@@ -1,0 +1,34 @@
+<!DOCTYPE html><html lang="mk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Моја Продавница</title>
+  <style>
+    body { font-family: Arial, sans-serif; background:#f5f5f5; margin:0; padding:20px; }
+    h1 { text-align:center; }
+    .products { display:grid; grid-template-columns:repeat(auto-fit, minmax(200px,1fr)); gap:20px; margin-top:20px; }
+    .card { background:#fff; padding:15px; border-radius:10px; box-shadow:0 3px 10px rgba(0,0,0,0.1); text-align:center; }
+    .card img { width:100%; height:200px; object-fit:cover; border-radius:10px; }
+    .price { font-weight:bold; margin-top:10px; }
+  </style>
+</head>
+<body>  <h1>Продавница за Играчки</h1>
+  <p style="text-align:center;">Само замени ги СЛИКИТЕ и ЦЕНИТЕ — ништо друго!</p>  <div class="products">
+    <div class="card">
+      <img src="slika1.jpg" alt="Производ 1" />
+      <h3>Име на производ</h3>
+      <p class="price">Цена: XXX ден</p>
+    </div><div class="card">
+  <img src="slika2.jpg" alt="Производ 2" />
+  <h3>Име на производ</h3>
+  <p class="price">Цена: XXX ден</p>
+</div>
+
+<div class="card">
+  <img src="slika3.jpg" alt="Производ 3" />
+  <h3>Име на производ</h3>
+  <p class="price">Цена: XXX ден</p>
+</div>
+
+  </div></body>
+</html>
